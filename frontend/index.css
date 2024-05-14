@@ -1,0 +1,184 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8e6fa;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(232, 193, 246);
+}
+
+.to-do-list {
+  font-family: "Cute", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 100px;
+  color: black;
+  font-family: "Cute";
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  background-origin: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button {
+  background-color: rgb(187, 137, 220);
+}
+
+.add-button:hover {
+  background-color: rgb(173, 122, 206);
+}
+
+.delete-button {
+  background-color: rgb(204, 100, 241);
+}
+
+.delete-button:hover {
+  background-color: rgb(111, 55, 137);
+}
+
+.move-button {
+  background-color: rgb(205, 142, 231);
+}
+
+.move-button:hover {
+  background-color: rgb(163, 103, 171);
+}
+
+.edit-button {
+  background-color: rgb(213, 136, 247);
+}
+
+.edit-button:hover {
+  background-color: rgb(134, 41, 148);
+}
+
+input[type="text"] {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-button,
+.move-button,
+.edit-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+input[type="checkbox"]::before {
+  width: 20px;
+  height: 20px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+input[type="checkbox"]:checked::before {
+  background-color: rgb(127, 59, 135);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.uncompleted-button {
+  margin-right: 5rem;
+  background-color: rgb(210, 119, 228);
+}
+
+.completed-button {
+  margin-left: 5rem;
+  background-color: rgb(222, 128, 231);
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.profile-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
